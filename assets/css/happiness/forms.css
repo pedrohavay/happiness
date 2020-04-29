@@ -1,0 +1,92 @@
+/*! happiness.css v0.0.1 ... */
+
+/*
+* Add the custom style to input div
+*/
+
+.form-field {
+    border-width: 0.15rem;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 1rem;
+    background-color: #FFF;
+    padding: 1rem;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000;
+    min-height: 1.25em;
+    display: flex;
+    align-items: center;
+}
+
+/* 
+ * Decrease the opacity when disabled
+ */
+
+.form-field.disabled {
+    background: #F4F5F7 !important; 
+}
+
+/*
+* Remove the input's default style
+*/
+
+.form-field input[type="text"],
+.form-field input[type="password"],
+.form-field input[type="email"],
+.form-field input[type="url"],
+.form-field input[type="date"],
+.form-field input[type="month"],
+.form-field input[type="time"],
+.form-field input[type="datetime"],
+.form-field input[type="datetime-local"],
+.form-field input[type="week"],
+.form-field input[type="number"],
+.form-field input[type="search"],
+.form-field input[type="tel"],
+.form-field input[type="color"],
+.form-field textarea {
+    border: none;
+    background: none;
+    font-size: 1em;
+    font-weight: 600;
+    flex: 1;
+}
+
+/*
+* Remove the default border when input is active
+*/
+
+.form-field input[type="text"]:focus,
+.form-field input[type="password"]:focus,
+.form-field input[type="email"]:focus,
+.form-field input[type="url"]:focus,
+.form-field input[type="date"]:focus,
+.form-field input[type="month"]:focus,
+.form-field input[type="time"]:focus,
+.form-field input[type="datetime"]:focus,
+.form-field input[type="datetime-local"]:focus,
+.form-field input[type="week"]:focus,
+.form-field input[type="number"]:focus,
+.form-field input[type="search"]:focus,
+.form-field input[type="tel"]:focus,
+.form-field input[type="color"]:focus,
+.form-field textarea:focus {
+    outline: none;
+}
+
+/*
+* Add the icon style
+*/
+
+.form-field .icon {
+    margin-right: 0.75rem;
+}
+
+/*
+* Add the image style whithin icon class
+*/
+
+.form-field .icon img {
+    height: 1.25rem;
+}

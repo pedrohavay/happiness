@@ -1,0 +1,140 @@
+/*! happiness.css v0.0.1 ... */
+
+/* 
+* Full width
+*/
+
+.full-width {
+    width: 100%;
+}
+
+/*
+* Add a shadow to element
+*/
+
+.shadow {
+    border-bottom-width: 0.3rem !important; /* Overwrite any style */
+}
+
+/* Margin
+========================================================================== */
+
+.m-auto {
+    margin: auto !important;
+}
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.m-1 {
+    margin: 1rem !important;
+}
+.mt-1 {
+    margin-top: 1rem !important;
+}
+.mt-05 {
+    margin-top: .5rem !important;
+}
+.mt-0 {
+    margin-top: 0 !important;
+}
+.mr-1 {
+    margin-right: 1rem !important;
+}
+.mr-05 {
+    margin-right: .5rem !important;
+}
+.mr-0 {
+    margin-right: 0 !important;
+}
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+.mb-05 {
+    margin-bottom: .5rem !important;
+}
+.ml-1 {
+    margin-left: 1rem !important;
+}
+.ml-05 {
+    margin-left: .5rem !important;
+}
+.ml-0 {
+    margin-left: 0 !important;
+}
+
+/* Padding
+========================================================================== */
+
+.pt-1 {
+    padding-top: 1rem !important;
+}
+.pt-0 {
+    padding-top: 0 !important;
+}
+.pt-05 {
+    padding-top: .5rem !important;
+}
+.pr-1 {
+    padding-right: 1rem !important;
+}
+.pr-0 {
+    padding-right: 0 !important;
+}
+.pr-05 {
+    padding-right: .5rem !important;
+}
+.pb-1 {
+    padding-bottom: 1rem !important;
+}
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+.pb-05 {
+    padding-bottom: .5rem !important;
+}
+.pl-1 {
+    padding-left: 1rem !important;
+}
+.pl-0 {
+    padding-left: 0 !important;
+}
+.pl-05 {
+    padding-left: .5rem !important;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.p-1 {
+    padding: 1rem !important;
+}
+.p-05 {
+    padding: .5rem !important;
+}
+
+/* Typograph
+========================================================================== */
+
+.text-center {
+    text-align: center !important; /* Overwrite any style */
+}
+
+.text-left {
+    text-align: left !important; /* Overwrite any style */
+}
+
+.text-justify {
+    text-align: justify !important; /* Overwrite any style */
+}
+
+.text-right {
+    text-align: right !important; /* Overwrite any style */
+}

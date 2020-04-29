@@ -1,0 +1,88 @@
+/*! happiness.css v0.0.1 ... */
+
+/*
+ * Yellow
+ */
+
+.border-yellow {
+    background-color: #FFBD12;
+}
+
+.border-yellow-medium {
+    background-color: #FFD465;
+}
+
+.border-yellow-light {
+    background-color: #FFF4CC;
+}
+
+.text-yellow {
+    background-color: #FFBD12;
+}
+
+.text-yellow-medium {
+    background-color: #FFD465;
+}
+
+.text-yellow-light {
+    background-color: #FFF4CC;
+}
+
+.bg-yellow {
+    background-color: #FFBD12;
+}
+
+.bg-yellow-medium {
+    background-color: #FFD465;
+}
+
+.bg-yellow-light {
+    background-color: #FFF4CC;
+}
+
+/*
+ * Orange
+ */
+
+.border-orange {
+    background-color: #F95A2C;
+}
+
+.border-orange-medium {
+    background-color: #FF9692;
+}
+
+.border-orange-light {
+    background-color: #FFE8E8;
+}
+
+.text-orange {
+    background-color: #F95A2C;
+}
+
+.text-orange-medium {
+    background-color: #FF9692;
+}
+
+.text-orange-light {
+    background-color: #FFE8E8;
+}
+
+.bg-orange {
+    background-color: #F95A2C;
+}
+
+.bg-orange-medium {
+    background-color: #FF9692;
+}
+
+.bg-orange-light {
+    background-color: #FFE8E8;
+}
+
+/* Gray Scale */
+
+.bg-black {
+    background-color: #18191F;
+    color: white !important; /* Overwrite any style */
+}

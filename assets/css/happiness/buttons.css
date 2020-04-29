@@ -1,0 +1,51 @@
+/*! happiness.css v0.0.1 ... */
+
+/*
+ * Add the button style
+ */
+
+.button {
+    border-width: 0.15rem;
+    border-color: #000;
+    border-radius: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+}
+
+/*
+ * Remove the default style when button is focus
+ */
+
+.button:focus {
+    outline: none;
+}
+
+/*
+ * Decrease the opacity when hover
+ */
+
+.button:hover {
+    opacity: 0.9;
+}
+
+/*
+ * Decreate the opacity when active
+ */
+
+.button:active {
+    opacity: 0.9 !important;
+}
+
+/*
+ * Add pressed style when hover
+ */
+
+.button.shadow:active {
+    margin-top: 0.15rem; 
+    border-bottom-width: 0.15rem !important; /* Overwrite any style */
+}
